@@ -130,7 +130,7 @@ elif selection == "📝 Assignment 1":
         img_persona3 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Priya Kapoor.png"  # Update this with the actual image URL
         st.image(img_persona3, caption="Priya Kapoor", width=150)
 
-    _, col4, _, col5 = st.columns([0.3, 0.3, 0.3, 0.3])
+    col4, col5 = st.columns(1, 1])
 
     with col4:
         img_persona4 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Maya Desai.png"  # Update this with the actual image URL
