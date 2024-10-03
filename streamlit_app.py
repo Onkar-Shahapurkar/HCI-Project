@@ -63,6 +63,8 @@ elif selection == "👥 Team members":
     st.markdown(center_style, unsafe_allow_html=True)
 
     with col1:
+        img_url1 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
+        st.image(img_url1, caption="John Doe", width=200)
         st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         st.subheader("Member 1")
         st.write("""
@@ -73,11 +75,11 @@ elif selection == "👥 Team members":
         - **Division**: A
         - **Email**: john.doe@example.com
         """)
-        img_url1 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
-        st.image(img_url1, caption="John Doe", width=150)
         st.markdown('</div>', unsafe_allow_html=True)
 
     with col2:
+        img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
+        st.image(img_url2, caption="Jane Smith", width=200)
         st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         st.subheader("Member 2")
         st.write("""
@@ -88,11 +90,11 @@ elif selection == "👥 Team members":
         - **Division**: A
         - **Email**: jane.smith@example.com
         """)
-        img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
-        st.image(img_url2, caption="Jane Smith", width=150)
         st.markdown('</div>', unsafe_allow_html=True)
 
     with col3:
+        img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
+        st.image(img_url2, caption="Jane Smith", width=200)
         st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         st.subheader("Member 3")
         st.write("""
@@ -103,8 +105,7 @@ elif selection == "👥 Team members":
         - **Division**: A
         - **Email**: alex.brown@example.com
         """)
-        img_url3 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
-        st.image(img_url3, caption="Alex Brown", width=150)
+        x
         st.markdown('</div>', unsafe_allow_html=True)
 
 elif selection == "📁 Figma file":
