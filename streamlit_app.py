@@ -119,25 +119,25 @@ elif selection == "📝 Assignment 1":
     col1, col2, col3 = st.columns([1, 1, 1])
 
     with col1:
-        img_persona1 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Vikram Singh.jpg"  # Update this with the actual image URL
+        img_persona1 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Vikram Singh.png"  # Update this with the actual image URL
         st.image(img_persona1, caption="Vikram Singh", width=150)
 
     with col2:
-        img_persona2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Rohan Mehta.jpg"  # Update this with the actual image URL
+        img_persona2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Rohan Mehta.png"  # Update this with the actual image URL
         st.image(img_persona2, caption="Rohan Mehta", width=150)
 
     with col3:
-        img_persona3 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Priya Kapoor.jpg"  # Update this with the actual image URL
+        img_persona3 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Priya Kapoor.png"  # Update this with the actual image URL
         st.image(img_persona3, caption="Priya Kapoor", width=150)
 
     col4, _, col5 = st.columns([1, 0.5, 1])
 
     with col4:
-        img_persona4 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Maya Desai.jpg"  # Update this with the actual image URL
+        img_persona4 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Maya Desai.ppng"  # Update this with the actual image URL
         st.image(img_persona4, caption="Maya Desai", width=150)
 
     with col5:
-        img_persona5 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Aditi Sharma.jpg"  # Update this with the actual image URL
+        img_persona5 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Aditi Sharma.png"  # Update this with the actual image URL
         st.image(img_persona5, caption="Aditi Sharma", width=150)
 
 
