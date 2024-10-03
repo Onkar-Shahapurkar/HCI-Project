@@ -80,7 +80,7 @@ elif selection == "👥 Team members":
         st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
         st.image(img_url2, caption="Ambika Pankaj Surwase", width=200)
-        st.subheader("Ambika     Surwase")
+        st.subheader("Ambika Pankaj Surwase")
         st.write("""
         - **PRN Number**: 22320076
         - **Roll Number**: 332072
