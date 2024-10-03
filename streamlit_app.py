@@ -1,19 +1,32 @@
 import streamlit as st
-from PIL import Image  # For loading images
 
-# Set up the page layout
-st.set_page_config(layout="wide")
+# Set the title of the application
+st.title("Home Decor Website Project")
 
-# Sidebar with options
-st.sidebar.title("Navigation")
-options = ["Introduction", "Team members", "Figma File", 
-           "Assignment 1", "Assignment 2", "Assignment 3", 
-           "Assignment 4", "Assignment 5"]
-selection = st.sidebar.radio("Go to:", options)
+# Custom CSS to style the sidebar
+sidebar_style = """
+    <style>
+    .sidebar .sidebar-content {
+        background-color: #f8f9fa;  /* Light background color */
+        border-radius: 10px;         /* Rounded corners */
+        padding: 10px;               /* Padding */
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);  /* Subtle shadow effect */
+    }
+    </style>
+"""
+st.markdown(sidebar_style, unsafe_allow_html=True)
 
-# Content based on selection
-if selection == "Introduction":
-    st.title("Home Decor Website")
+# Define the sidebar selection options with emojis for better visuals
+selection = st.sidebar.selectbox(
+    "🗂️ Select an option:", 
+    ["🏠 Introduction", "👥 Team members", "📁 Figma file", 
+     "📝 Assignment 1", "📝 Assignment 2", "📝 Assignment 3", 
+     "📝 Assignment 4", "📝 Assignment 5"]
+)
+
+# Content displayed based on selection
+if selection == "🏠 Introduction":
+    st.subheader("Home Decor Website")
     st.write("""
     Welcome to the Home Decor Website project! This project aims to provide an online platform for users to explore 
     various home decor products, including furniture, wall art, and accessories. The website features user-friendly 
@@ -26,18 +39,31 @@ if selection == "Introduction":
     - **Responsive Design**: The website is designed to work on both desktop and mobile devices.
     - **Search Functionality**: Quickly find products with a robust search feature.
     """)
-           
-elif selection == "Team members":
-    st.title("Team Members")
+
+elif selection == "👥 Team members":
+    st.subheader("Meet Our Team")
     st.write("Meet our amazing team of developers and designers working on this project:")
 
     # Create three columns for three team members
     col1, col2, col3 = st.columns(3)
 
+    # Define CSS to center the content
+    center_style = """
+        <style>
+        .centered-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        </style>
+    """
+
+    # Inject the CSS style into the Streamlit app
+    st.markdown(center_style, unsafe_allow_html=True)
+
     with col1:
-        img_url1 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
-        st.image(img_url1, caption="John Doe", width=150)
-               
+        st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         st.subheader("Member 1")
         st.write("""
         - **Name**: John Doe
@@ -47,11 +73,12 @@ elif selection == "Team members":
         - **Division**: A
         - **Email**: john.doe@example.com
         """)
+        img_url1 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
+        st.image(img_url1, caption="John Doe", width=150)
+        st.markdown('</div>', unsafe_allow_html=True)
 
-    with col2: 
-        img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
-        st.image(img_url2, caption="Jane Smith", width=150)
-               
+    with col2:
+        st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         st.subheader("Member 2")
         st.write("""
         - **Name**: Jane Smith
@@ -61,10 +88,12 @@ elif selection == "Team members":
         - **Division**: A
         - **Email**: jane.smith@example.com
         """)
+        img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
+        st.image(img_url2, caption="Jane Smith", width=150)
+        st.markdown('</div>', unsafe_allow_html=True)
 
     with col3:
-        img_url3 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
-        st.image(img_url3, caption="Alex Brown", width=150)
+        st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         st.subheader("Member 3")
         st.write("""
         - **Name**: Alex Brown
@@ -74,6 +103,9 @@ elif selection == "Team members":
         - **Division**: A
         - **Email**: alex.brown@example.com
         """)
+        img_url3 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
+        st.image(img_url3, caption="Alex Brown", width=150)
+        st.markdown('</div>', unsafe_allow_html=True)
 
 
 elif selection == "Figma File":
