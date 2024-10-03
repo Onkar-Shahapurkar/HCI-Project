@@ -27,13 +27,39 @@ elif selection == "Team members":
     st.title("Team Members")
     st.write("""
     Meet our amazing team of developers and designers working on this project:
-    - **Member 1**: Role and description.
-    - **Member 2**: Role and description.
-    - **Member 3**: Role and description.
     """)
-    # Example image (load your own image here)
-    img = Image.open("path/to/team_image.jpg")
-    st.image(img, caption="Our Team")
+
+    # Example of team members with details
+    st.subheader("Member 1")
+    st.write("""
+    - **Name**: John Doe
+    - **PRN Number**: 123456789
+    - **Roll Number**: 01
+    - **Year**: 4th Year
+    - **Division**: A
+    - **Email**: john.doe@example.com
+    """)
+
+    st.subheader("Member 2")
+    st.write("""
+    - **Name**: Jane Smith
+    - **PRN Number**: 987654321
+    - **Roll Number**: 02
+    - **Year**: 4th Year
+    - **Division**: A
+    - **Email**: jane.smith@example.com
+    """)
+
+    st.subheader("Member 3")
+    st.write("""
+    - **Name**: Alex Brown
+    - **PRN Number**: 456789123
+    - **Roll Number**: 03
+    - **Year**: 4th Year
+    - **Division**: A
+    - **Email**: alex.brown@example.com
+    """)
+
 
 elif selection == "Figma File":
     st.title("Figma Design")
