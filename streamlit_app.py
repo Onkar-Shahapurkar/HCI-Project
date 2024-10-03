@@ -13,16 +13,20 @@ selection = st.sidebar.radio("Go to:", options)
 
 # Content based on selection
 if selection == "Introduction":
-    st.title("Introduction")
+    st.title("Home Decor Website")
     st.write("""
-    Welcome to the project. This app provides an overview of the team and assignments. 
-    You can navigate through the options to view specific content.
+    Welcome to the Home Decor Website project! This project aims to provide an online platform for users to explore 
+    various home decor products, including furniture, wall art, and accessories. The website features user-friendly 
+    navigation, detailed product descriptions, and the ability to add items to a virtual shopping cart.
+    
+    ### Key Features:
+    - **User Authentication**: Users can create accounts and log in to save their favorite products.
+    - **Product Categories**: Explore a wide range of categories, from modern to classic decor styles.
+    - **Shopping Cart**: Easily add products to your cart and proceed to checkout.
+    - **Responsive Design**: The website is designed to work on both desktop and mobile devices.
+    - **Search Functionality**: Quickly find products with a robust search feature.
     """)
-
-    # Example image (load your own image here)
-    img = Image.open("path/to/introduction_image.jpg")
-    st.image(img, caption="Project Overview")
-
+           
 elif selection == "Team members":
     st.title("Team Members")
     st.write("Meet our amazing team of developers and designers working on this project:")
