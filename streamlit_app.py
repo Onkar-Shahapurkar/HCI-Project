@@ -144,9 +144,36 @@ elif selection == "📝 Assignment 1":
 elif selection == "📝 Assignment 2":
     st.subheader("Assignment 2")
     st.write("""
-    - **Title**: User Persona Development
-    - **Description**: Create user personas based on your target audience for the Home Decor Website.
+    - **Title**: User Journey Map
+    - **Description**: Develop a user journey map to visualize the steps taken by a user while interacting with the Home Decor Website.
     """)
+
+    # First row: Displaying first 3 journey maps in a row
+    col1, col2, col3 = st.columns([1, 1, 1])
+
+    with col1:
+        img_journey1 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Rohan Mehta uj.jpg"  # Update with actual image URL
+        st.image(img_journey1, caption="Rohan Mehta", width=250)
+
+    with col2:
+        img_journey2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/ADITI SHARMA uj.jpg"  # Update with actual image URL
+        st.image(img_journey2, caption="ADITI SHARMA", width=250)
+
+    with col3:
+        img_journey3 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Maya Desai uj.jpg"  # Update with actual image URL
+        st.image(img_journey3, caption="Maya Desai", width=250)
+
+    # Second row: Displaying the last 2 journey maps, centered in a row
+    col4, _, col5 = st.columns([1, 0.5, 1])
+
+    with col4:
+        img_journey4 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Vikram Singh uj.jpg"  # Update with actual image URL
+        st.image(img_journey4, caption="Vikram Singh", width=250)
+
+    with col5:
+        img_journey5 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Priya Kappor uj.jpg"  # Update with actual image URL
+        st.image(img_journey5, caption="Priya Kapoor", width=250)
+
 
 elif selection == "📝 Assignment 3":
     st.subheader("Assignment 3")
