@@ -105,7 +105,6 @@ elif selection == "👥 Team members":
         - **Division**: A
         - **Email**: alex.brown@example.com
         """)
-        x
         st.markdown('</div>', unsafe_allow_html=True)
 
 elif selection == "📁 Figma file":
