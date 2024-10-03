@@ -133,7 +133,7 @@ elif selection == "📝 Assignment 1":
     col4, _, col5 = st.columns([1, 0.5, 1])
 
     with col4:
-        img_persona4 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Maya Desai.ppng"  # Update this with the actual image URL
+        img_persona4 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Maya Desai.png"  # Update this with the actual image URL
         st.image(img_persona4, caption="Maya Desai", width=150)
 
     with col5:
