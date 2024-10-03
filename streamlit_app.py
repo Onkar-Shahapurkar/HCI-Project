@@ -7,10 +7,10 @@ st.title("Home Decor Website Project")
 sidebar_style = """
     <style>
     .sidebar .sidebar-content {
-        background-color: #f8f9fa;  /* Light background color */
-        border-radius: 10px;         /* Rounded corners */
-        padding: 10px;               /* Padding */
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);  /* Subtle shadow effect */
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1)
     }
     </style>
 """
@@ -66,7 +66,7 @@ elif selection == "👥 Team members":
         st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         img_url1 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
         st.image(img_url1, caption="John Doe", width=200)
-        st.subheader("Member 1")
+        st.subheader("Akshita Shambharkar")
         st.write("""
         - **Name**: John Doe
         - **PRN Number**: 123456789
@@ -80,7 +80,7 @@ elif selection == "👥 Team members":
     with col2:
         st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
-        st.image(img_url2, caption="Jane Smith", width=200)
+        st.image(img_url2, caption="Ambika Surwase", width=200)
         st.subheader("Member 2")
         st.write("""
         - **Name**: Jane Smith
@@ -95,7 +95,7 @@ elif selection == "👥 Team members":
     with col3:
         st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
-        st.image(img_url2, caption="Jane Smith", width=200)
+        st.image(img_url2, caption="Onkar Shahapurkar", width=200)
         st.subheader("Member 3")
         st.write("""
         - **Name**: Alex Brown
@@ -115,9 +115,34 @@ elif selection == "📁 Figma file":
 elif selection == "📝 Assignment 1":
     st.subheader("Assignment 1")
     st.write("""
-    - **Title**: Introduction to Home Decor
-    - **Description**: Research the latest trends in home decor and present your findings.
+    - **Title**: User Persona Development
+    - **Description**: User Personas based on the target audience of the Project.
     """)
+
+    col1, col2, col3 = st.columns([1, 1, 1])
+
+    with col1:
+        img_persona1 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Vikram Singh.jpg"  # Update this with the actual image URL
+        st.image(img_persona1, caption="Vikram Singh", width=150)
+
+    with col2:
+        img_persona2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Rohan Mehta.jpg"  # Update this with the actual image URL
+        st.image(img_persona2, caption="Rohan Mehta", width=150)
+
+    with col3:
+        img_persona3 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Priya Kapoor.jpg"  # Update this with the actual image URL
+        st.image(img_persona3, caption="Priya Kapoor", width=150)
+
+    col4, _, col5 = st.columns([1, 0.5, 1])
+
+    with col4:
+        img_persona4 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Maya Desai.jpg"  # Update this with the actual image URL
+        st.image(img_persona4, caption="Maya Desai", width=150)
+
+    with col5:
+        img_persona5 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Aditi Sharma.jpg"  # Update this with the actual image URL
+        st.image(img_persona5, caption="Aditi Sharma", width=150)
+
 
 elif selection == "📝 Assignment 2":
     st.subheader("Assignment 2")
