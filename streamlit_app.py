@@ -144,7 +144,7 @@ elif selection == "📝 Assignment 1":
             """
             <style>
             .stImage {
-                margin-bottom: -10px;  /* Adjust the negative margin to reduce space */
+                margin-bottom: -70px;  /* Adjust the negative margin to reduce space */
             }
             </style>
             """,
