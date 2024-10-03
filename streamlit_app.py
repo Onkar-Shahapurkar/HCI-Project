@@ -3,18 +3,6 @@ import streamlit as st
 # Set the title of the application
 st.title("Home Decor Website Project")
 
-st.markdown(
-    """
-    <style>
-    .reportview-container {
-        max-width: 1200px;  /* Adjust this value to increase/decrease the width */
-        margin: auto;  /* Centers the container */
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 # Custom CSS to style the sidebar
 sidebar_style = """
     <style>
@@ -60,19 +48,19 @@ elif selection == "👥 Team members":
     col1, col2, col3 = st.columns(3)
 
     # Define CSS to center the content
-    center_style = """
-        <style>
-        .centered-content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-        </style>
-    """
+    # center_style = """
+    #     <style>
+    #     .centered-content {
+    #         display: flex;
+    #         flex-direction: column;
+    #         align-items: center;
+    #         justify-content: center;
+    #     }
+    #     </style>
+    # """
 
     # Inject the CSS style into the Streamlit app
-    st.markdown(center_style, unsafe_allow_html=True)
+    # st.markdown(center_style, unsafe_allow_html=True)
 
     with col1:
         st.markdown('<div class="centered-content">', unsafe_allow_html=True)
