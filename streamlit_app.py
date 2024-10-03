@@ -40,7 +40,7 @@ elif selection == "Team members":
         - **Division**: A
         - **Email**: john.doe@example.com
         """)
-        img1 = Image.open("member_image.jpg")  # Replace with the path to member 1 image
+        img1 = Image.open("dev1.jpg")  # Replace with the path to member 1 image
         st.image(img1, caption="John Doe")
 
     with col2:
@@ -53,7 +53,7 @@ elif selection == "Team members":
         - **Division**: A
         - **Email**: jane.smith@example.com
         """)
-        img2 = Image.open("member_image.jpg")  # Replace with the path to member 2 image
+        img2 = Image.open("dev1.jpg")  # Replace with the path to member 2 image
         st.image(img2, caption="Jane Smith")
 
     with col3:
@@ -66,7 +66,7 @@ elif selection == "Team members":
         - **Division**: A
         - **Email**: alex.brown@example.com
         """)
-        img3 = Image.open("member_image.jpg")  # Replace with the path to member 3 image
+        img3 = Image.open("dev1.jpg")  # Replace with the path to member 3 image
         st.image(img3, caption="Alex Brown")
 
 
