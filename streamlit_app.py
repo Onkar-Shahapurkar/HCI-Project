@@ -88,7 +88,7 @@ elif selection == "👥 Team members":
         - **Division**: A
         - **Email**: jane.smith@example.com
         """)
-        img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev2.jpg"
+        img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
         st.image(img_url2, caption="Jane Smith", width=150)
         st.markdown('</div>', unsafe_allow_html=True)
 
@@ -103,7 +103,7 @@ elif selection == "👥 Team members":
         - **Division**: A
         - **Email**: alex.brown@example.com
         """)
-        img_url3 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev3.jpg"
+        img_url3 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
         st.image(img_url3, caption="Alex Brown", width=150)
         st.markdown('</div>', unsafe_allow_html=True)
 
