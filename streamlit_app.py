@@ -79,7 +79,7 @@ elif selection == "👥 Team members":
     with col2:
         st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
-        st.image(img_url2, caption="Ambika Surwase", width=200)
+        st.image(img_url2, caption="Ambika     Surwase", width=200)
         st.subheader("Ambika Surwase")
         st.write("""
         - **PRN Number**: 22320076
@@ -139,17 +139,6 @@ elif selection == "📝 Assignment 1":
     with col5:
         img_persona5 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Aditi Sharma.png"  # Update this with the actual image URL
         st.image(img_persona5, caption="Aditi Sharma", width=175)
-
-    st.markdown(
-            """
-            <style>
-            .stImage {
-                margin-bottom: -70px;  /* Adjust the negative margin to reduce space */
-            }
-            </style>
-            """,
-            unsafe_allow_html=True
-        )
 
 
 elif selection == "📝 Assignment 2":
