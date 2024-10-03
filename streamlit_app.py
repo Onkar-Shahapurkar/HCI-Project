@@ -65,14 +65,13 @@ elif selection == "👥 Team members":
     with col1:
         st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         img_url1 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
-        st.image(img_url1, caption="John Doe", width=200)
+        st.image(img_url1, caption="Akshita Shambharkar", width=200)
         st.subheader("Akshita Shambharkar")
         st.write("""
-        - **Name**: John Doe
         - **PRN Number**: 123456789
-        - **Roll Number**: 01
-        - **Year**: 4th Year
-        - **Division**: A
+        - **Roll Number**: 332071
+        - **Year**: TY
+        - **Division**: B
         - **Email**: john.doe@example.com
         """)
         st.markdown('</div>', unsafe_allow_html=True)
@@ -81,14 +80,13 @@ elif selection == "👥 Team members":
         st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
         st.image(img_url2, caption="Ambika Surwase", width=200)
-        st.subheader("Member 2")
+        st.subheader("Ambika Surwase")
         st.write("""
-        - **Name**: Jane Smith
-        - **PRN Number**: 987654321
-        - **Roll Number**: 02
-        - **Year**: 4th Year
-        - **Division**: A
-        - **Email**: jane.smith@example.com
+        - **PRN Number**: 22320076
+        - **Roll Number**: 332072
+        - **Year**: TY
+        - **Division**: B
+        - **Email**: ambika.22320076@viit.ac.in
         """)
         st.markdown('</div>', unsafe_allow_html=True)
 
@@ -96,14 +94,13 @@ elif selection == "👥 Team members":
         st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
         st.image(img_url2, caption="Onkar Shahapurkar", width=200)
-        st.subheader("Member 3")
+        st.subheader("Onkar Shahapurkar")
         st.write("""
-        - **Name**: Alex Brown
-        - **PRN Number**: 456789123
-        - **Roll Number**: 03
-        - **Year**: 4th Year
-        - **Division**: A
-        - **Email**: alex.brown@example.com
+        - **PRN Number**: 22320147
+        - **Roll Number**: 332076
+        - **Year**: TY
+        - **Division**: B
+        - **Email**: onkar.22320147@viit.ac.in
         """)
         st.markdown('</div>', unsafe_allow_html=True)
 
