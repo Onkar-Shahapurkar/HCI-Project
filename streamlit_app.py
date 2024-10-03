@@ -25,40 +25,49 @@ if selection == "Introduction":
 
 elif selection == "Team members":
     st.title("Team Members")
-    st.write("""
-    Meet our amazing team of developers and designers working on this project:
-    """)
+    st.write("Meet our amazing team of developers and designers working on this project:")
 
-    # Example of team members with details
-    st.subheader("Member 1")
-    st.write("""
-    - **Name**: John Doe
-    - **PRN Number**: 123456789
-    - **Roll Number**: 01
-    - **Year**: 4th Year
-    - **Division**: A
-    - **Email**: john.doe@example.com
-    """)
+    # Create three columns for three team members
+    col1, col2, col3 = st.columns(3)
 
-    st.subheader("Member 2")
-    st.write("""
-    - **Name**: Jane Smith
-    - **PRN Number**: 987654321
-    - **Roll Number**: 02
-    - **Year**: 4th Year
-    - **Division**: A
-    - **Email**: jane.smith@example.com
-    """)
+    with col1:
+        st.subheader("Member 1")
+        st.write("""
+        - **Name**: John Doe
+        - **PRN Number**: 123456789
+        - **Roll Number**: 01
+        - **Year**: 4th Year
+        - **Division**: A
+        - **Email**: john.doe@example.com
+        """)
+        img1 = Image.open("member_image.jpg")  # Replace with the path to member 1 image
+        st.image(img1, caption="John Doe")
 
-    st.subheader("Member 3")
-    st.write("""
-    - **Name**: Alex Brown
-    - **PRN Number**: 456789123
-    - **Roll Number**: 03
-    - **Year**: 4th Year
-    - **Division**: A
-    - **Email**: alex.brown@example.com
-    """)
+    with col2:
+        st.subheader("Member 2")
+        st.write("""
+        - **Name**: Jane Smith
+        - **PRN Number**: 987654321
+        - **Roll Number**: 02
+        - **Year**: 4th Year
+        - **Division**: A
+        - **Email**: jane.smith@example.com
+        """)
+        img2 = Image.open("member_image.jpg")  # Replace with the path to member 2 image
+        st.image(img2, caption="Jane Smith")
+
+    with col3:
+        st.subheader("Member 3")
+        st.write("""
+        - **Name**: Alex Brown
+        - **PRN Number**: 456789123
+        - **Roll Number**: 03
+        - **Year**: 4th Year
+        - **Division**: A
+        - **Email**: alex.brown@example.com
+        """)
+        img3 = Image.open("member_image.jpg")  # Replace with the path to member 3 image
+        st.image(img3, caption="Alex Brown")
 
 
 elif selection == "Figma File":
