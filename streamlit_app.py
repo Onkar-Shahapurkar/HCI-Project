@@ -63,9 +63,9 @@ elif selection == "👥 Team members":
     st.markdown(center_style, unsafe_allow_html=True)
 
     with col1:
+        st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         img_url1 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
         st.image(img_url1, caption="John Doe", width=200)
-        st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         st.subheader("Member 1")
         st.write("""
         - **Name**: John Doe
@@ -78,9 +78,9 @@ elif selection == "👥 Team members":
         st.markdown('</div>', unsafe_allow_html=True)
 
     with col2:
+        st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
         st.image(img_url2, caption="Jane Smith", width=200)
-        st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         st.subheader("Member 2")
         st.write("""
         - **Name**: Jane Smith
@@ -93,9 +93,9 @@ elif selection == "👥 Team members":
         st.markdown('</div>', unsafe_allow_html=True)
 
     with col3:
+        st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
         st.image(img_url2, caption="Jane Smith", width=200)
-        st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         st.subheader("Member 3")
         st.write("""
         - **Name**: Alex Brown
