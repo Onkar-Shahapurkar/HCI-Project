@@ -88,7 +88,7 @@ elif selection == "👥 Team members":
         - **Division**: A
         - **Email**: jane.smith@example.com
         """)
-        img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
+        img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev2.jpg"
         st.image(img_url2, caption="Jane Smith", width=150)
         st.markdown('</div>', unsafe_allow_html=True)
 
@@ -103,45 +103,47 @@ elif selection == "👥 Team members":
         - **Division**: A
         - **Email**: alex.brown@example.com
         """)
-        img_url3 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
+        img_url3 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev3.jpg"
         st.image(img_url3, caption="Alex Brown", width=150)
         st.markdown('</div>', unsafe_allow_html=True)
 
+elif selection == "📁 Figma file":
+    st.subheader("Figma Design")
+    st.write("Click the link below to open the Figma design file:")
+    st.markdown("[Open Figma File](https://www.figma.com/file/your-figma-file-url)", unsafe_allow_html=True)
 
-elif selection == "Figma File":
-    st.title("Figma Design")
-    st.write("Click the link below to view the Figma file:")
+elif selection == "📝 Assignment 1":
+    st.subheader("Assignment 1")
+    st.write("""
+    - **Title**: Introduction to Home Decor
+    - **Description**: Research the latest trends in home decor and present your findings.
+    """)
+
+elif selection == "📝 Assignment 2":
+    st.subheader("Assignment 2")
+    st.write("""
+    - **Title**: User Persona Development
+    - **Description**: Create user personas based on your target audience for the Home Decor Website.
+    """)
+
+elif selection == "📝 Assignment 3":
+    st.subheader("Assignment 3")
+    st.write("""
+    - **Title**: Wireframe Creation
+    - **Description**: Develop wireframes for key pages of the Home Decor Website using Figma or other design tools.
+    """)
+
+elif selection == "📝 Assignment 4":
+    st.subheader("Assignment 4")
+    st.write("""
+    - **Title**: Prototype Development
+    - **Description**: Build a prototype of the Home Decor Website using your wireframes.
+    """)
+
+elif selection == "📝 Assignment 5":
+    st.subheader("Assignment 5")
+    st.write("""
+    - **Title**: Final Presentation
+    - **Description**: Prepare and present the final project presentation to showcase the Home Decor Website.
+    """)
     
-    figma_url = "https://www.figma.com/file/xyz123"  # Replace with your actual Figma file URL
-    st.markdown(f"[Open Figma File]({figma_url})")
-
-elif selection == "Assignment 1":
-    st.title("Assignment 1")
-    st.write("Details about Assignment 1")
-    # Example image (load your own image here)
-    img = Image.open("path/to/assignment1_image.jpg")
-    st.image(img, caption="Assignment 1")
-
-elif selection == "Assignment 2":
-    st.title("Assignment 2")
-    st.write("Details about Assignment 2")
-    img = Image.open("path/to/assignment2_image.jpg")
-    st.image(img, caption="Assignment 2")
-
-elif selection == "Assignment 3":
-    st.title("Assignment 3")
-    st.write("Details about Assignment 3")
-    img = Image.open("path/to/assignment3_image.jpg")
-    st.image(img, caption="Assignment 3")
-
-elif selection == "Assignment 4":
-    st.title("Assignment 4")
-    st.write("Details about Assignment 4")
-    img = Image.open("path/to/assignment4_image.jpg")
-    st.image(img, caption="Assignment 4")
-
-elif selection == "Assignment 5":
-    st.title("Assignment 5")
-    st.write("Details about Assignment 5")
-    img = Image.open("path/to/assignment5_image.jpg")
-    st.image(img, caption="Assignment 5")
