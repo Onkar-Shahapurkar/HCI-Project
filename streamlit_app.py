@@ -156,12 +156,10 @@ elif selection == "📝 Assignment 2":
         st.image(img_journey1, caption="Rohan Mehta", width=250)
 
     with col2:
-        st.markdown("<div style='margin: 10px;'></div>", unsafe_allow_html=True)  # Add gap
         img_journey2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/ADITI SHARMA uj.jpg"
         st.image(img_journey2, caption="ADITI SHARMA", width=250)
 
     with col3:
-        st.markdown("<div style='margin: 10px;'></div>", unsafe_allow_html=True)  # Add gap
         img_journey3 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Maya Desai uj.jpg"
         st.image(img_journey3, caption="Maya Desai", width=250)
 
@@ -173,7 +171,6 @@ elif selection == "📝 Assignment 2":
         st.image(img_journey4, caption="Vikram Singh", width=250)
 
     with col5:
-        st.markdown("<div style='margin: 10px;'></div>", unsafe_allow_html=True)  # Add gap
         img_journey5 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Priya Kappor uj.jpg"
         st.image(img_journey5, caption="Priya Kappor", width=250)
 
