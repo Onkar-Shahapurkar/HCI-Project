@@ -40,7 +40,7 @@ elif selection == "Team members":
         - **Division**: A
         - **Email**: john.doe@example.com
         """)
-        img1 = Image.open(".streamlit/assets/dev1.jpg")
+        img1 = Image.open("https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg")
         st.image(img1, caption="John Doe")
 
     with col2:
@@ -53,7 +53,7 @@ elif selection == "Team members":
         - **Division**: A
         - **Email**: jane.smith@example.com
         """)
-        img2 = Image.open(".streamlit/assets/dev1.jpg")  # Replace with the path to member 2 image
+        img2 = Image.open("https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg")  # Replace with the path to member 2 image
         st.image(img2, caption="Jane Smith")
 
     with col3:
@@ -66,7 +66,7 @@ elif selection == "Team members":
         - **Division**: A
         - **Email**: alex.brown@example.com
         """)
-        img3 = Image.open(".streamlit/assets/dev1.jpg")  # Replace with the path to member 3 image
+        img3 = Image.open("https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg")  # Replace with the path to member 3 image
         st.image(img3, caption="Alex Brown")
 
 
