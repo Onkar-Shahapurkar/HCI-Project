@@ -40,8 +40,8 @@ elif selection == "Team members":
         - **Division**: A
         - **Email**: john.doe@example.com
         """)
-        img1 = Image.open("https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg")
-        st.image(img1, caption="John Doe")
+        img_url1 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
+        st.image(img_url1, caption="John Doe")
 
     with col2:
         st.subheader("Member 2")
@@ -53,8 +53,8 @@ elif selection == "Team members":
         - **Division**: A
         - **Email**: jane.smith@example.com
         """)
-        img2 = Image.open("https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg")  # Replace with the path to member 2 image
-        st.image(img2, caption="Jane Smith")
+        img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
+        st.image(img_url2, caption="Jane Smith")
 
     with col3:
         st.subheader("Member 3")
@@ -66,8 +66,8 @@ elif selection == "Team members":
         - **Division**: A
         - **Email**: alex.brown@example.com
         """)
-        img3 = Image.open("https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg")  # Replace with the path to member 3 image
-        st.image(img3, caption="Alex Brown")
+        img_url3 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
+        st.image(img_url3, caption="Alex Brown")
 
 
 elif selection == "Figma File":
