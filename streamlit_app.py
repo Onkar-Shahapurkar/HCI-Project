@@ -140,6 +140,17 @@ elif selection == "📝 Assignment 1":
         img_persona5 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Aditi Sharma.png"  # Update this with the actual image URL
         st.image(img_persona5, caption="Aditi Sharma", width=175)
 
+    st.markdown(
+            """
+            <style>
+            .stImage {
+                margin-bottom: -10px;  /* Adjust the negative margin to reduce space */
+            }
+            </style>
+            """,
+            unsafe_allow_html=True
+        )
+
 
 elif selection == "📝 Assignment 2":
     st.subheader("Assignment 2")
