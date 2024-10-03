@@ -32,7 +32,7 @@ elif selection == "Team members":
 
     with col1:
         img_url1 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
-        st.image(img_url1, caption="John Doe")
+        st.image(img_url1, caption="John Doe", width=150)
                
         st.subheader("Member 1")
         st.write("""
@@ -46,7 +46,7 @@ elif selection == "Team members":
 
     with col2: 
         img_url2 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
-        st.image(img_url2, caption="Jane Smith")
+        st.image(img_url2, caption="Jane Smith", width=150)
                
         st.subheader("Member 2")
         st.write("""
@@ -60,7 +60,7 @@ elif selection == "Team members":
 
     with col3:
         img_url3 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
-        st.image(img_url3, caption="Alex Brown")
+        st.image(img_url3, caption="Alex Brown", width=150)
         st.subheader("Member 3")
         st.write("""
         - **Name**: Alex Brown
