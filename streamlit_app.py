@@ -181,12 +181,9 @@ elif selection == "📝 Assignment 3":
     - **Description**: This assignment contains a cognitive walkthrough presented.
     """)
 
-    pdf_url = "https://drive.google.com/uc?export=view&id=<1oFCPeFqq7-ufFlzu_R-_XsvSrJfv0Yob>"
+    excel_url = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Hi1.xlsx"  # Update with the correct URL
 
-    # Embed the PDF in the Streamlit app using an iframe
-    st.subheader("Cognitive Walkthrough - Assignment 3 (PDF)")
-    pdf_display = f'<iframe src="{pdf_url}" width="700" height="1000" type="application/pdf"></iframe>'
-    st.markdown(pdf_display, unsafe_allow_html=True)
+    st.markdown(f"[Open Cognitive Walkthrough Excel Sheet]( {excel_url})", unsafe_allow_html=True)
 
 
 elif selection == "📝 Assignment 4":
