@@ -5,6 +5,39 @@ st.title("Home Decor Website")
 
 #st.write(st.config.get_option("theme"))
 
+# Define custom CSS for the light theme
+custom_css = """
+    <style>
+        body {
+            background-color: #FFFFFF;
+            color: #000000;
+        }
+        .stApp {
+            background-color: #FFFFFF;
+        }
+        .stSidebar {
+            background-color: #F0F0F0;
+        }
+        .stButton>button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .stButton>button:hover {
+            background-color: #45a049;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #4CAF50;
+        }
+    </style>
+"""
+
+# Inject the CSS into the Streamlit app
+st.markdown(custom_css, unsafe_allow_html=True)
+
 
 # Custom CSS to style the sidebar
 sidebar_style = """
