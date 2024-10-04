@@ -181,7 +181,7 @@ elif selection == "📝 Assignment 3":
     - **Description**: This assignment contains a cognitive walkthrough presented.
     """)
 
-    excel_url = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Hi1.xlsx"  # Update with the correct URL
+    excel_url = "https://docs.google.com/spreadsheets/d/1DyLtZZjNOSh0cheexl7bClN4L4Yq-_fz/edit?usp=sharing&ouid=103448259837151713633&rtpof=true&sd=true"  # Update with the correct URL
 
     st.markdown(f'<a href="{excel_url}" target="_blank">Open Cognitive Walkthrough Excel Sheet</a>', unsafe_allow_html=True)
 
