@@ -187,12 +187,12 @@ elif selection == "📝 Assignment 3":
     try:
         df = pd.read_excel(excel_url)
 
-        st.write("Here is the Cognitive Walkthrough table:")
-        st.dataframe(df)
+         # Convert DataFrame to HTML
+    html_table = df.to_html(escape=False, index=False)
 
-        st.write("You can also download the Cognitive Walkthrough Excel sheet below:")
-        st.markdown(f"[Download Cognitive Walkthrough Excel](https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Hi1.xlsx)")
-
+    # Display the HTML in Streamlit
+    st.markdown(html_table, unsafe_allow_html=True)
+    
     except Exception as e:
         st.error(f"An error occurred while loading the Excel file: {e}")
 
