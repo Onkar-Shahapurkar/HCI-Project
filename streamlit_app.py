@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 st.title("Home Decor Website")
 
@@ -183,8 +184,17 @@ elif selection == "📝 Assignment 3":
 
     excel_url = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Hi.xlsx"
     
-    # Display download link (if file is hosted on a server, you can provide a direct download link)
-    st.markdown(f"[Download Cognitive Walkthrough Excel](https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Hi.xlsx)")
+    try:
+        df = pd.read_excel(excel_url)
+
+        st.write("Here is the Cognitive Walkthrough table:")
+        st.dataframe(df)
+
+        st.write("You can also download the Cognitive Walkthrough Excel sheet below:")
+        st.markdown(f"[Download Cognitive Walkthrough Excel](https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Hi.xlsx)")
+
+    except Exception as e:
+        st.error(f"An error occurred while loading the Excel file: {e}")
 
 
 elif selection == "📝 Assignment 4":
