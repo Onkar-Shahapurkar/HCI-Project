@@ -1,0 +1,7 @@
+[theme]
+base="light"  # Set the base theme to light
+primaryColor="#4CAF50"  # Change the primary color to something that fits the light theme (green here)
+backgroundColor="#FFFFFF"  # Set the background color to white
+secondaryBackgroundColor="#F0F0F0"  # Light grey for the secondary background
+textColor="#000000"  # Black text
+font="sans serif"  # Font style, you can also choose "monospace" or "serif"
