@@ -66,11 +66,11 @@ elif selection == "👥 Team members":
         st.image(img_url1, caption="Akshita Shambharkar", width=200)
         st.subheader("Akshita Shambharkar")
         st.write("""
-        - **PRN Number**: 123456789
-        - **Roll Number**: 332071
+        - **PRN Number**: 22320034
+        - **Roll Number**: 332070
         - **Year**: TY
         - **Division**: B
-        - **Email**: john.doe@example.com
+        - **Email**: akshita.22320034@viit.ac.in
         """)
         st.markdown('</div>', unsafe_allow_html=True)
 
@@ -176,9 +176,16 @@ elif selection == "📝 Assignment 2":
 elif selection == "📝 Assignment 3":
     st.subheader("Assignment 3")
     st.write("""
-    - **Title**: Wireframe Creation
-    - **Description**: Develop wireframes for key pages of the Home Decor Website using Figma or other design tools.
+    - **Title**: Cognitive Walkthrough
+    - **Description**: This assignment contains a cognitive walkthrough presented.
     """)
+    st.write("You can download the Cognitive Walkthrough Excel sheet below:")
+
+    excel_url = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Hi.xlsx"
+    
+    # Display download link (if file is hosted on a server, you can provide a direct download link)
+    st.markdown(f"[Download Cognitive Walkthrough Excel](https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Hi.xlsx)")
+
 
 elif selection == "📝 Assignment 4":
     st.subheader("Assignment 4")
