@@ -3,6 +3,9 @@ import pandas as pd
 
 st.title("Home Decor Website")
 
+st.write(st.config.get_option("theme"))
+
+
 # Custom CSS to style the sidebar
 sidebar_style = """
     <style>
