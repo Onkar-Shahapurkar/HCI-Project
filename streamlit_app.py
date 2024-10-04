@@ -188,10 +188,10 @@ elif selection == "📝 Assignment 3":
         df = pd.read_excel(excel_url)
 
          # Convert DataFrame to HTML
-    html_table = df.to_html(escape=False, index=False)
-
-    # Display the HTML in Streamlit
-    st.markdown(html_table, unsafe_allow_html=True)
+        html_table = df.to_html(escape=False, index=False)
+    
+        # Display the HTML in Streamlit
+        st.markdown(html_table, unsafe_allow_html=True)
     
     except Exception as e:
         st.error(f"An error occurred while loading the Excel file: {e}")
