@@ -182,7 +182,7 @@ elif selection == "📝 Assignment 3":
     """)
     st.write("You can download the Cognitive Walkthrough Excel sheet below:")
 
-    excel_url = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Hi.xlsx"
+    excel_url = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Hi1.xlsx"
     
     try:
         df = pd.read_excel(excel_url)
@@ -191,7 +191,7 @@ elif selection == "📝 Assignment 3":
         st.dataframe(df)
 
         st.write("You can also download the Cognitive Walkthrough Excel sheet below:")
-        st.markdown(f"[Download Cognitive Walkthrough Excel](https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Hi.xlsx)")
+        st.markdown(f"[Download Cognitive Walkthrough Excel](https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Hi1.xlsx)")
 
     except Exception as e:
         st.error(f"An error occurred while loading the Excel file: {e}")
