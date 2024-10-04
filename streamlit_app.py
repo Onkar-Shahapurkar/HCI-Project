@@ -181,7 +181,7 @@ elif selection == "📝 Assignment 3":
     - **Description**: This assignment contains a cognitive walkthrough presented.
     """)
 
-    pdf_url = "https://drive.google.com/file/d/1oFCPeFqq7-ufFlzu_R-_XsvSrJfv0Yob/view?usp=sharing"
+    pdf_url = "https://drive.google.com/file/d/1oFCPeFqq7-ufFlzu_R-_XsvSrJfv0Yob/view"
 
     # Embed the PDF in the Streamlit app using an iframe
     st.subheader("Cognitive Walkthrough - Assignment 3 (PDF)")
