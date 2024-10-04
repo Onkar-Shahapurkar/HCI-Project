@@ -182,19 +182,12 @@ elif selection == "📝 Assignment 3":
     """)
     st.write("You can download the Cognitive Walkthrough Excel sheet below:")
 
-    excel_url = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Hi1.xlsx"
-    
-    try:
-        df = pd.read_excel(excel_url)
+    pdf_url = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Hi.pdf"
 
-         # Convert DataFrame to HTML
-        html_table = df.to_html(escape=False, index=False)
-    
-        # Display the HTML in Streamlit
-        st.markdown(html_table, unsafe_allow_html=True)
-    
-    except Exception as e:
-        st.error(f"An error occurred while loading the Excel file: {e}")
+    # Embed the PDF in the Streamlit app using an iframe
+    st.subheader("Cognitive Walkthrough - Assignment 3 (PDF)")
+    pdf_display = f'<iframe src="{pdf_url}" width="700" height="1000" type="application/pdf"></iframe>'
+    st.markdown(pdf_display, unsafe_allow_html=True)
 
 
 elif selection == "📝 Assignment 4":
