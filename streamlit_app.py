@@ -32,6 +32,9 @@ custom_css = """
         h1, h2, h3, h4, h5, h6 {
             color: #4CAF50;
         }
+        p, div, span, label {
+            color: #000000;  /* Normal text is now black */
+        }
     </style>
 """
 
