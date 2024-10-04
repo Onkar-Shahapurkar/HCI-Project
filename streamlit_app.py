@@ -180,9 +180,8 @@ elif selection == "📝 Assignment 3":
     - **Title**: Cognitive Walkthrough
     - **Description**: This assignment contains a cognitive walkthrough presented.
     """)
-    st.write("You can download the Cognitive Walkthrough Excel sheet below:")
 
-    pdf_url = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Hi.pdf"
+    pdf_url = "https://drive.google.com/file/d/1oFCPeFqq7-ufFlzu_R-_XsvSrJfv0Yob/view?usp=sharing"
 
     # Embed the PDF in the Streamlit app using an iframe
     st.subheader("Cognitive Walkthrough - Assignment 3 (PDF)")
