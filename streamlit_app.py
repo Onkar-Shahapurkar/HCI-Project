@@ -183,7 +183,7 @@ elif selection == "📝 Assignment 3":
 
     excel_url = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/Hi1.xlsx"  # Update with the correct URL
 
-    st.markdown(f"[Open Cognitive Walkthrough Excel Sheet]( {excel_url})", unsafe_allow_html=True)
+    st.markdown(f'<a href="{excel_url}" target="_blank">Open Cognitive Walkthrough Excel Sheet</a>', unsafe_allow_html=True)
 
 
 elif selection == "📝 Assignment 4":
