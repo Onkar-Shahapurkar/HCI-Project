@@ -1,7 +1,6 @@
 import streamlit as st
 
-# Set the title of the application
-st.title("Home Decor Website Project")
+st.title("Home Decor Website")
 
 # Custom CSS to style the sidebar
 sidebar_style = """
@@ -33,7 +32,6 @@ if selection == "🏠 Introduction":
     navigation, detailed product descriptions, and the ability to add items to a virtual shopping cart.
     
     ### Key Features:
-    - **User Authentication**: Users can create accounts and log in to save their favorite products.
     - **Product Categories**: Explore a wide range of categories, from modern to classic decor styles.
     - **Shopping Cart**: Easily add products to your cart and proceed to checkout.
     - **Responsive Design**: The website is designed to work on both desktop and mobile devices.
