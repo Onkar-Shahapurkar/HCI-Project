@@ -16,7 +16,11 @@ custom_css = """
             background-color: #FFFFFF;
         }
         .stSidebar {
-            background-color: #F0F0F0;
+            background-color: #FFFFFF !important;  /* White background for sidebar */
+            color: #000000;  /* Black text in sidebar */
+        }
+        .stSidebar > div {
+            color: #000000 !important;
         }
         .stButton>button {
             background-color: #4CAF50;
