@@ -46,21 +46,6 @@ elif selection == "👥 Team members":
     # Create three columns for three team members
     col1, col2, col3 = st.columns(3)
 
-    # Define CSS to center the content
-    # center_style = """
-    #     <style>
-    #     .centered-content {
-    #         display: flex;
-    #         flex-direction: column;
-    #         align-items: center;
-    #         justify-content: center;
-    #     }
-    #     </style>
-    # """
-
-    # Inject the CSS style into the Streamlit app
-    # st.markdown(center_style, unsafe_allow_html=True)
-
     with col1:
         st.markdown('<div class="centered-content">', unsafe_allow_html=True)
         img_url1 = "https://raw.githubusercontent.com/Onkar-Shahapurkar/HCI-Project/main/dev1.jpg"
@@ -199,6 +184,16 @@ elif selection == "📝 Assignment 4":
     - **Description**: Build a prototype of the Home Decor Website using your wireframes.
     """)
 
+    Figma_url = ""
+
+    st.markdown(f"""
+    <a href="{Figma_url}" target="_blank">
+        <button style="background-color:#4CAF50; color:white; padding:10px 20px; border:none; border-radius:5px; cursor:pointer;">
+            Open Figma
+        </button>
+    </a>
+    """, unsafe_allow_html=True)
+
    
 
 elif selection == "📝 Assignment 5":
@@ -208,7 +203,7 @@ elif selection == "📝 Assignment 5":
     - **Description**: Create low-fidelity wireframes that outline the structure of the Home Decor Website.
     """)
 
-    low_Fidelity_url = "https://drive.google.com/file/d/1oFCPeFqq7-ufFlzu_R-_XsvSrJfv0Yob/view"
+    low_Fidelity_url = ""
 
     st.markdown(f"""
     <a href="{low_Fidelity_url}" target="_blank">
@@ -226,7 +221,7 @@ elif selection == "📝 Assignment 6":
     """)
 
     # Example PDF or document URL for Card Sorting Techniques
-    card_sorting_url = "https://github.com/Onkar-Shahapurkar/HCI-Project/blob/main/Hi.pdf"
+    card_sorting_url = "https://drive.google.com/file/d/1oFCPeFqq7-ufFlzu_R-_XsvSrJfv0Yob/view"
 
     st.markdown(f"""
     <a href="{card_sorting_url}" target="_blank">
