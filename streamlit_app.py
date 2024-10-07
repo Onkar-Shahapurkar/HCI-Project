@@ -226,7 +226,7 @@ elif selection == "📝 Assignment 6":
     """)
 
     # Example PDF or document URL for Card Sorting Techniques
-    card_sorting_url = ""
+    card_sorting_url = "https://github.com/Onkar-Shahapurkar/HCI-Project/blob/main/Hi.pdf"
 
     st.markdown(f"""
     <a href="{card_sorting_url}" target="_blank">
