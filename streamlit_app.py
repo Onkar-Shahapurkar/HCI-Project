@@ -186,7 +186,7 @@ elif selection == "📝 Assignment 3":
     st.markdown(f"""
     <a href="{excel_url}" target="_blank">
         <button style="background-color:#4CAF50; color:white; padding:10px 20px; border:none; border-radius:5px; cursor:pointer;">
-            Open Cognitive Walkthrough in Google Sheets
+            Open Cognitive Walkthrough
         </button>
     </a>
     """, unsafe_allow_html=True)
@@ -199,10 +199,39 @@ elif selection == "📝 Assignment 4":
     - **Description**: Build a prototype of the Home Decor Website using your wireframes.
     """)
 
+   
+
 elif selection == "📝 Assignment 5":
     st.subheader("Assignment 5")
     st.write("""
-    - **Title**: Final Presentation
-    - **Description**: Prepare and present the final project presentation to showcase the Home Decor Website.
+    - **Title**: Low Fidelity Design
+    - **Description**: Create low-fidelity wireframes that outline the structure of the Home Decor Website.
     """)
-    
+
+    low_Fidelity_url = ""
+
+    st.markdown(f"""
+    <a href="{low_Fidelity_url}" target="_blank">
+        <button style="background-color:#4CAF50; color:white; padding:10px 20px; border:none; border-radius:5px; cursor:pointer;">
+            Open Low Fidelity Design
+        </button>
+    </a>
+    """, unsafe_allow_html=True)
+
+elif selection == "📝 Assignment 6":
+    st.subheader("Assignment 6")
+    st.write("""
+    - **Title**: Card Sorting Techniques
+    - **Description**: Conduct card sorting to organize the information architecture of the Home Decor Website.
+    """)
+
+    # Example PDF or document URL for Card Sorting Techniques
+    card_sorting_url = ""
+
+    st.markdown(f"""
+    <a href="{card_sorting_url}" target="_blank">
+        <button style="background-color:#4CAF50; color:white; padding:10px 20px; border:none; border-radius:5px; cursor:pointer;">
+            Open Card Sorting Techniques Document
+        </button>
+    </a>
+    """, unsafe_allow_html=True)
