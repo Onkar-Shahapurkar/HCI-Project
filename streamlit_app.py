@@ -183,7 +183,13 @@ elif selection == "📝 Assignment 3":
 
     excel_url = "https://docs.google.com/spreadsheets/d/1DyLtZZjNOSh0cheexl7bClN4L4Yq-_fz/edit?usp=sharing&ouid=103448259837151713633&rtpof=true&sd=true"  # Update with the correct URL
 
-    st.markdown(f'<a href="{excel_url}" target="_blank">Open Cognitive Walkthrough Excel Sheet</a>', unsafe_allow_html=True)
+    st.markdown(f"""
+    <a href="{google_sheets_url}" target="_blank">
+        <button style="background-color:#4CAF50; color:white; padding:10px 20px; border:none; border-radius:5px; cursor:pointer;">
+            Open Cognitive Walkthrough in Google Sheets
+        </button>
+    </a>
+    """, unsafe_allow_html=True)
 
 
 elif selection == "📝 Assignment 4":
