@@ -184,7 +184,7 @@ elif selection == "📝 Assignment 4":
     - **Description**: Build a prototype of the Home Decor Website using your wireframes.
     """)
 
-    Figma_url = ""
+    Figma_url = "https://www.figma.com/proto/Mg4CCrYQxbADQGDYVMyBEw/Homedecor?node-id=0-1&t=MxXbicZIKc9R1k56-1"
 
     st.markdown(f"""
     <a href="{Figma_url}" target="_blank">
@@ -203,7 +203,7 @@ elif selection == "📝 Assignment 5":
     - **Description**: Create low-fidelity wireframes that outline the structure of the Home Decor Website.
     """)
 
-    low_Fidelity_url = ""
+    low_Fidelity_url = "https://www.figma.com/proto/Mg4CCrYQxbADQGDYVMyBEw/Homedecor?node-id=0-1&t=MxXbicZIKc9R1k56-1"
 
     st.markdown(f"""
     <a href="{low_Fidelity_url}" target="_blank">
