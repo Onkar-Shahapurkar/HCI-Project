@@ -21,7 +21,7 @@ selection = st.sidebar.selectbox(
     "🗂️ Select an option:", 
     ["🏠 Introduction", "👥 Team members", "📁 Figma file", 
      "📝 Assignment 1", "📝 Assignment 2", "📝 Assignment 3", 
-     "📝 Assignment 4", "📝 Assignment 5"]
+     "📝 Assignment 4", "📝 Assignment 5", "📝 Assignment 6"]
 )
 
 # Content displayed based on selection
