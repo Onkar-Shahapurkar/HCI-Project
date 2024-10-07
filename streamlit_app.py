@@ -203,7 +203,7 @@ elif selection == "📝 Assignment 5":
     - **Description**: Create low-fidelity wireframes that outline the structure of the Home Decor Website.
     """)
 
-    low_Fidelity_url = "https://www.figma.com/proto/Mg4CCrYQxbADQGDYVMyBEw/Homedecor?node-id=0-1&t=MxXbicZIKc9R1k56-1"
+    low_Fidelity_url = "https://drive.google.com/file/d/19BpMbNN2Uzano7wKZBlWopDShQnuyJMF/view"
 
     st.markdown(f"""
     <a href="{low_Fidelity_url}" target="_blank">
