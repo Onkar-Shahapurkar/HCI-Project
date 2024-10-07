@@ -208,7 +208,7 @@ elif selection == "📝 Assignment 5":
     - **Description**: Create low-fidelity wireframes that outline the structure of the Home Decor Website.
     """)
 
-    low_Fidelity_url = ""
+    low_Fidelity_url = "https://drive.google.com/file/d/1oFCPeFqq7-ufFlzu_R-_XsvSrJfv0Yob/view"
 
     st.markdown(f"""
     <a href="{low_Fidelity_url}" target="_blank">
