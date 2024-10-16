@@ -20,8 +20,8 @@ st.markdown(sidebar_style, unsafe_allow_html=True)
 selection = st.sidebar.selectbox(
     "🗂️ Select an option:", 
     ["🏠 Introduction", "👥 Team members", 
-     "📝 User Persona", "📝 User Journey Map", "📝 Cognitive Walkthrough", 
-     "📝 Figma Prototype", "📝 Low Fidelity Design", "📝 Card Sorting Technique"]
+     "📝 User Persona", "📝 User Journey Map", "📝 Card Sorting Technique", 
+     "📝 Cognitive Walkthrough", "📝 Low Fidelity Design", "📝 Figma Prototype"]
 )
 
 # Content displayed based on selection
