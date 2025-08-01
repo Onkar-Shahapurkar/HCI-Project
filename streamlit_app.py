@@ -1,5 +1,20 @@
 import streamlit as st
 import pandas as pd
+import streamlit.components.v1 as components
+
+google_tag = """
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LHFN99W3XN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LHFN99W3XN');
+</script>
+"""
+
+components.html(google_tag, height=0)
 
 st.title("Home Decor Website")
 
